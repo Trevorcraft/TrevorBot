@@ -1,0 +1,13 @@
+name: Trevorbot
+main: net.trevorcraft.trevorbot.Plugin
+version: 1.0
+api-version: 1.17
+
+
+commands:
+  trevorbot:
+    aliases:
+      - trevor
+    description: Restarts the server after x seconds
+    usage: /restartcountdown <seconds>
+    permission: trevorbot.restartcountdown
